@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basiko - Ropa Minimalista Urbana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">Basiko</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#coleccion">Colección</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Estilo Simple, Presencia Fuerte</h1>
+            <p>Descubre la nueva colección de ropa minimalista urbana de Basiko.</p>
+            <a href="#coleccion" class="button">Ver Colección</a>
+        </div>
+    </section>
+
+    <section id="coleccion">
+        <h2>Nueva Colección</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400/cccccc/ffffff?Text=Producto+1" alt="Producto 1">
+                <h3>Camiseta Básica</h3>
+                <p>$299 MXN</p>
+                <button>Ver Detalles</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400/eeeeee/333333?Text=Producto+2" alt="Producto 2">
+                <h3>Pantalón Urbano</h3>
+                <p>$599 MXN</p>
+                <button>Ver Detalles</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400/bbbbbb/000000?Text=Producto+3" alt="Producto 3">
+                <h3>Sudadera Minimalista</h3>
+                <p>$499 MXN</p>
+                <button>Ver Detalles</button>
+            </div>
+            </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <div class="nosotros-content">
+            <p>En Basiko, creemos en la belleza de la simplicidad y la comodidad en el entorno urbano. Nuestra ropa está diseñada para integrarse perfectamente en tu día a día, ofreciendo estilo sin esfuerzo y calidad duradera. Nos inspiramos en la vida de la ciudad y la individualidad de quienes la habitan.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-form">
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form>
+                <input type="text" placeholder="Tu Nombre">
+                <input type="email" placeholder="Tu Correo Electrónico">
+                <textarea placeholder="Tu Mensaje"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Basiko - Ropa Minimalista Urbana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
